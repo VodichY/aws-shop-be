@@ -3,9 +3,9 @@
 module.exports.hello = async (event) => {
   return {
     statusCode: 200,
-    body: {
+    body: JSON.stringify ({
         productName: 'Book',
         price: 123
-      }
+      })
   };
 };
