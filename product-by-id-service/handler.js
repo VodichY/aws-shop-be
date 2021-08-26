@@ -1,0 +1,19 @@
+"use strict";
+
+const { productsList } = require("./products");
+
+module.exports.getProductById = async (event) => {
+  const { pathParameters } = event;
+  const product = productsList.find((elem) => pathParameters.id === elem.id);
+  if (product === undefined) {
+    return {
+      statusCode: 404,
+      body: JSON.stringify({}),
+    };
+  } else {
+    return {
+      statusCode: 200,
+      body: JSON.stringify(product),
+    };
+  }  
+};
