@@ -4,7 +4,7 @@ const { productsList } = require("./products");
 
 module.exports.getProductById = async (event) => {
   const { pathParameters } = event;
-  const product = productsList.find((elem) => pathParameters.id === elem.id);
+  const product = productsList.find((elem) => pathParameters.productId === elem.id);
   if (product === undefined) {
     return {
       statusCode: 404,

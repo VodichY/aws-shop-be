@@ -1,67 +1,67 @@
 const productsList = [
     {
-        id: "1",
-        name: "Nike Men's Gymnastics Shoes",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4891",
+        name: "Nike Men's Stroke Running Shoe CX",
         brand: "Nike",
-        size: "41.5",
+        size: "41",
         color: "black",
-        price: "49.90"
+        price: "49"
     },
     {
-        id: "2",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4892",
+        name: "Nike Men's Stroke Running Shoe DS",
         brand: "Nike",
         size: "42",
         color: "blue",
-        price: "44.50"
+        price: "50"
     },
     {
-        id: "3",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4893",
+        name: "Nike Men's Stroke Running Shoe FR",
         brand: "Nike",
-        size: "42",
+        size: "43",
         color: "blue",
-        price: "44.50"
+        price: "60"
     },
     {
-        id: "4",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4894",
+        name: "Nike Men's Stroke Running Shoe EW",
         brand: "Nike",
-        size: "42",
+        size: "44",
         color: "blue",
-        price: "44.50"
+        price: "70"
     },
     {
-        id: "5",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4895",
+        name: "Nike Men's Stroke Running Shoe FQ",
         brand: "Nike",
-        size: "42",
+        size: "45",
         color: "blue",
-        price: "44.50"
+        price: "80"
     },
     {
-        id: "6",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4896",
+        name: "Nike Men's Stroke Running Shoe TR",
         brand: "Nike",
-        size: "42",
+        size: "46",
         color: "blue",
-        price: "44.50"
+        price: "90"
     },
     {
-        id: "7",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4897",
+        name: "Nike Men's Stroke Running Shoe GH",
         brand: "Nike",
-        size: "42",
+        size: "47",
         color: "blue",
-        price: "44.50"
+        price: "100"
     },
     {
-        id: "8",
-        name: "Nike Men's Stroke Running Shoe",
+        id: "99039f46-7543-42be-b075-9ba8cfcd4898",
+        name: "Nike Men's Stroke Running Shoe GR",
         brand: "Nike",
-        size: "42",
+        size: "48",
         color: "blue",
-        price: "44.50"
+        price: "110"
     }
 ];
 
