@@ -1,11 +1,10 @@
 'use strict';
 
-module.exports.hello = async (event) => {
+const { productsList } = require('./products');
+
+module.exports.getProductsList = async (event) => {
   return {
     statusCode: 200,
-    body: JSON.stringify ({
-        productName: 'Book',
-        price: 123
-      })
+    body: JSON.stringify (productsList)
   };
 };

@@ -56,7 +56,7 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.getProductsList
     events:
       - http:
           path: products
