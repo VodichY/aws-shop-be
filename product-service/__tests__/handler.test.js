@@ -3,10 +3,12 @@ const {
   getProductById
 } = require('../handler');
 
+const { productsList } = require('../products');
+
 test('getProductsList', () => {
   return getProductsList().then(data => {
     expect(data.statusCode).toBe(200);
-    expect(Array.isArray(JSON.parse(data.body))).toBe(true);
+    expect(JSON.parse(data.body)).toEqual(productsList);
   });
 });
 
