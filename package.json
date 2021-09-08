@@ -1,0 +1,22 @@
+{
+  "name": "aws-shop-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VodichY/aws-shop-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VodichY/aws-shop-be/issues"
+  },
+  "homepage": "https://github.com/VodichY/aws-shop-be#readme",
+  "dependencies": {
+    "jest": "^27.1.0"
+  }
+}
