@@ -5,7 +5,8 @@ const productsList = [
         description: "Nike",
         size: "41",
         color: "black",
-        price: "49"
+        count: 1,
+        price: 49
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4892",
@@ -13,7 +14,8 @@ const productsList = [
         description: "Nike",
         size: "42",
         color: "blue",
-        price: "50"
+        count: 1,
+        price: 50
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4893",
@@ -21,7 +23,8 @@ const productsList = [
         description: "Nike",
         size: "43",
         color: "blue",
-        price: "60"
+        count: 1,
+        price: 60
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4894",
@@ -29,7 +32,8 @@ const productsList = [
         description: "Nike",
         size: "44",
         color: "blue",
-        price: "70"
+        count: 1,
+        price: 70
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4895",
@@ -37,7 +41,8 @@ const productsList = [
         description: "Nike",
         size: "45",
         color: "blue",
-        price: "80"
+        count: 1,
+        price: 80
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4896",
@@ -45,7 +50,8 @@ const productsList = [
         description: "Nike",
         size: "46",
         color: "blue",
-        price: "90"
+        count: 1,
+        price: 90
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4897",
@@ -53,7 +59,8 @@ const productsList = [
         description: "Nike",
         size: "47",
         color: "blue",
-        price: "100"
+        count: 1,
+        price: 100
     },
     {
         id: "99039f46-7543-42be-b075-9ba8cfcd4898",
@@ -61,7 +68,8 @@ const productsList = [
         description: "Nike",
         size: "48",
         color: "blue",
-        price: "110"
+        count: 1,
+        price: 110
     }
 ];
 
