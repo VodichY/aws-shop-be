@@ -6,3 +6,12 @@ node_modules
 
 # VSCode directories
 .vscode
+
+.env
+
+dist
+.webpack
+
+package-lock.json
+
+event.json
