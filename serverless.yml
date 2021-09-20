@@ -12,20 +12,39 @@
 # Happy Coding!
 
 service: product-service
+
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
-frameworkVersion: '2'
+#frameworkVersion: '2'
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-webpack
+  - serverless-offline
 
+custom:
+  webpack:
+    webpackConfig: './webpack.config.js'
+    includeModules: true
+
+package:
+  individually: true
+    
 provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
   region: eu-west-1
-
+  environment: {
+      PG_HOST: '${env:PG_HOST}',
+      PG_PORT: '${env:PG_PORT}',
+      PG_DB: '${env:PG_DB}',
+      PG_USER: '${env:PG_USER}',
+      PG_PASSWORD: '${env:PG_PASSWORD}',
+    }
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
 #    - Effect: "Allow"
@@ -56,14 +75,14 @@ provider:
 
 functions:
   getProductsList:
-    handler: handler.getProductsList
+    handler: product-service/first.getProductsList
     events:
       - http:
           path: products
           method: get
           cors: true
   getProductById:
-    handler: handler.getProductById
+    handler: product-service/second.getProductById
     events:
       - http:
           path: /products/{productId}
