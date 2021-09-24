@@ -1,68 +1,74 @@
-const productsList = [
+export const productsList = [
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4891",
-        name: "Nike Men's Stroke Running Shoe CX",
-        brand: "Nike",
-        size: "41",
-        color: "black",
-        price: "49"
+        "id": "8facc84d-cf96-4dbd-aa50-acf976defb1d",
+        "title": "Nike Mens Stroke Running Shoe CX",
+        "description": "Nike",
+        "size": "41",
+        "color": "blue",
+        "count": 10,
+        "price": 40
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4892",
-        name: "Nike Men's Stroke Running Shoe DS",
-        brand: "Nike",
-        size: "42",
-        color: "blue",
-        price: "50"
+        "id": "53bc360c-bc9e-4dd5-98f5-e251ad417a00",
+        "title": "Nike Mens Stroke Running Shoe DS",
+        "description": "Nike",
+        "size": "42",
+        "color": "blue",
+        "count": 20,
+        "price": 50
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4893",
-        name: "Nike Men's Stroke Running Shoe FR",
-        brand: "Nike",
-        size: "43",
-        color: "blue",
-        price: "60"
+        "id": "11c5b787-664c-4dd6-b023-a38a72f62499",
+        "title": "Nike Mens Stroke Running Shoe FR",
+        "description": "Nike",
+        "size": "43",
+        "color": "blue",
+        "count": 30,
+        "price": 60
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4894",
-        name: "Nike Men's Stroke Running Shoe EW",
-        brand: "Nike",
-        size: "44",
-        color: "blue",
-        price: "70"
+        "id": "26b805ac-9e22-4fbb-b5ee-e76ce7380690",
+        "title": "Nike Mens Stroke Running Shoe EW",
+        "description": "Nike",
+        "size": "44",
+        "color": "blue",
+        "count": 40,
+        "price": 70
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4895",
-        name: "Nike Men's Stroke Running Shoe FQ",
-        brand: "Nike",
-        size: "45",
-        color: "blue",
-        price: "80"
+        "id": "71dda711-c36c-4c20-a0c9-83fb77752203",
+        "title": "Nike Mens Stroke Running Shoe FQ",
+        "description": "Nike",
+        "size": "45",
+        "color": "blue",
+        "count": 50,
+        "price": 80
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4896",
-        name: "Nike Men's Stroke Running Shoe TR",
-        brand: "Nike",
-        size: "46",
-        color: "blue",
-        price: "90"
+        "id": "efc7ed6a-7f61-45ee-b81e-45dc00c10b07",
+        "title": "Nike Mens Stroke Running Shoe TR",
+        "description": "Nike",
+        "size": "46",
+        "color": "blue",
+        "count": 60,
+        "price": 90
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4897",
-        name: "Nike Men's Stroke Running Shoe GH",
-        brand: "Nike",
-        size: "47",
-        color: "blue",
-        price: "100"
+        "id": "e55a0c51-de5c-4a9b-94bf-003fdcb4a134",
+        "title": "Nike Mens Stroke Running Shoe GH",
+        "description": "Nike",
+        "size": "47",
+        "color": "blue",
+        "count": 70,
+        "price": 100
     },
     {
-        id: "99039f46-7543-42be-b075-9ba8cfcd4898",
-        name: "Nike Men's Stroke Running Shoe GR",
-        brand: "Nike",
-        size: "48",
-        color: "blue",
-        price: "110"
+        "id": "e771e5cd-1aa4-4fb8-a5d0-5d476c2ea0fc",
+        "title": "Nike Mens Stroke Running Shoe GR",
+        "description": "Nike",
+        "size": "48",
+        "color": "blue",
+        "count": 80,
+        "price": 110
     }
-];
-
-module.exports = { productsList };
+]
