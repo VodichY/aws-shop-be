@@ -75,14 +75,14 @@ provider:
 
 functions:
   getProductsList:
-    handler: product-service/first.getProductsList
+    handler: src/functions/getProductsList/handler.getProductsList
     events:
       - http:
           path: products
           method: get
           cors: true
   getProductById:
-    handler: product-service/second.getProductById
+    handler: src/functions/getProductById/handler.getProductById
     events:
       - http:
           path: /products/{productId}
